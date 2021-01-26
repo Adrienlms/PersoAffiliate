@@ -59,6 +59,7 @@
 .cardsino{
   border-radius: 2rem;
   background: white;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,6 +68,7 @@
 
 .c-img{
   border-radius: 2rem;
+  min-height: 25vh;
   width: 100%;
 }
 
