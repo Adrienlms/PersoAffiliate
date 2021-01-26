@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel {
+  padding: 25px;
+}
+
+.carousel-item{
+
+}
+
+.casinoCard {
+  border-radius: 50px 50px 50px 50px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.navbarCustom {
+  background-color: #353535;
+}
+
+
+.cardsino{
+  border-radius: 2rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-img{
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.left-text{
+  padding: 10px;
+}
+
+.left-bar{
+  background-color: #1d1d1d;
+}
+
+.card-crypto{
+  display: flex;
+}
+.card-crypto-header{
+  display: flex;
+}
